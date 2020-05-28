@@ -1,1 +1,6 @@
-# Dockerized P2Pool for Bitcoin Core
+# Dockerized P2Pool
+
+Example:
+```
+docker run -it --rm dmp1ce/p2pool --version
+```
