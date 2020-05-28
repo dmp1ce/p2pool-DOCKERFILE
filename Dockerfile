@@ -1,9 +1,9 @@
-# Dockerfile for P2Pool Server for Bitcoin Core
+# Dockerfile for P2Pool Server
 
 FROM ubuntu:20.04
-# as builder
+
 LABEL maintainer David Parrish <daveparrish@tutanota.com>
-LABEL description="Dockerized P2Pool for Bitcoin Core"
+LABEL description="Dockerized P2Pool"
 
 WORKDIR /p2pool
 ENV P2POOL_HOME /p2pool/p2pool
